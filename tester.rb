@@ -127,6 +127,7 @@ def collect_eggs map, bots
 			when 'N'
 				map[bot.coords[0]][bot.coords[1]] = ' '
 				bot.score += 1
+			end
 		end
 	end
 end
